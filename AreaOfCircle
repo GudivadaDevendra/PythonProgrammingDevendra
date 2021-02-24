@@ -1,0 +1,5 @@
+
+val=float(input("Input the radius of the circle: "))
+Area=3.14*val
+my_string= "The area of the circle with radius: {r} is: {a}.".format(r=val, a=Area)
+print(my_string)
